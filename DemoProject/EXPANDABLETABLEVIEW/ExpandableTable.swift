@@ -20,9 +20,7 @@ class ExpandableTable: UIViewController,UITableViewDelegate,UITableViewDataSourc
         
          tbl.registerNib(UINib(nibName:"Tbl_Cell",bundle: nil ), forCellReuseIdentifier: "Tbl_Cell")
          tbl.registerNib(UINib(nibName:"Lb_Cell",bundle: nil ), forCellReuseIdentifier: "Lb_Cell")
-      
          tbl.backgroundColor = UIColor.clearColor()
-        
         
         // Do any additional setup after loading the view.
     }
